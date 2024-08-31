@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+#music-list div {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: inline-block;
+}
+
+#music-list div:hover {
+    background-color: #eee;
+}
+
+audio {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+}
